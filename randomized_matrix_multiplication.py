@@ -23,7 +23,7 @@ def main():
     matB_row_num = matA_column_num
     matB_column_num = 9997
 
-    c = 1000
+    c = 5000
 
     key_A = jax.random.PRNGKey(0)
     key_B = jax.random.PRNGKey(1)
@@ -52,14 +52,19 @@ def main():
     matAB_norm = jnp.linalg.norm(matAB, "fro")
 
     matCR_norms = []
+    matE_norms = []
     for i in range(10):
         matCR = randomized_matrix_multiply(matA, matB, matA_column_num, c, prob, jax.random.PRNGKey(i))
         matCR_norms.append(jnp.linalg.norm(matCR, "fro"))
+        matE_norms.append(jnp.linalg.norm(matAB-matCR, "fro"))
 
     print("normal matrix multiplication norm: " + str(matAB_norm))
     print("randomized matrix multiplication mean(norm): " + str(jnp.mean(jnp.asarray(matCR_norms))))
     print("randomized matrix multiplication var(norm): " + str(jnp.var(jnp.asarray(matCR_norms))))
     print("randomized matrix multiplication sigma: " + str(jnp.sqrt(jnp.var(jnp.asarray(matCR_norms)))))
+    print("error matrix mean(norm): " + str(jnp.mean(jnp.asarray(matE_norms))))
+    print("error matrix var(norm): " + str(jnp.var(jnp.asarray(matE_norms))))
+    print("error matrix sigma: " + str(jnp.sqrt(jnp.var(jnp.asarray(matE_norms)))))
 
 #    for c in range(0, matA_column_num, 100):
 #

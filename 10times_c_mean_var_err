@@ -1,0 +1,66 @@
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 3.339576653000222
+prob time: 0.13142898300020533
+randomized matrix multiplication c = 100 time: 1.1962773379996179
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 10046589.0
+randomized matrix multiplication var(norm): 2465806000.0
+randomized matrix multiplication sigma: 49656.883
+error matrix mean(norm): 9996723.0
+error matrix var(norm): 2497000200.0
+error matrix sigma: 49969.992
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 3.503977205999945
+prob time: 0.12871789199971317
+randomized matrix multiplication c = 1000 time: 2.1516235789999882
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 3321247.8
+randomized matrix multiplication var(norm): 258623440.0
+randomized matrix multiplication sigma: 16081.773
+error matrix mean(norm): 3167096.5
+error matrix var(norm): 286019550.0
+error matrix sigma: 16912.111
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 2.8942856740000025
+prob time: 0.12882445199966241
+randomized matrix multiplication c = 2000 time: 1.558922504000293
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 2448702.5
+randomized matrix multiplication var(norm): 108917016.0
+randomized matrix multiplication sigma: 10436.332
+error matrix mean(norm): 2235317.8
+error matrix var(norm): 132334310.0
+error matrix sigma: 11503.665
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 2.738261878999765
+prob time: 0.11020091099999263
+randomized matrix multiplication c = 3000 time: 2.1788998390002234
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 2082551.6
+randomized matrix multiplication var(norm): 40942536.0
+randomized matrix multiplication sigma: 6398.6353
+error matrix mean(norm): 1827001.2
+error matrix var(norm): 52106700.0
+error matrix sigma: 7218.497
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 2.7176987480002026
+prob time: 0.11026369000001068
+randomized matrix multiplication c = 4000 time: 2.482731553999656
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 1871889.0
+randomized matrix multiplication var(norm): 56808060.0
+randomized matrix multiplication sigma: 7537.1123
+error matrix mean(norm): 1582599.9
+error matrix var(norm): 78617850.0
+error matrix sigma: 8866.671
+(venv) shimi3435@DESKTOP-2C0I6NB:~/workspace/Python3/python3.9.4/RandNLA$ python randomized_matrix_multiplication.py 
+normal matrix multiplication time: 2.8853703120003047
+prob time: 0.12770851799996308
+randomized matrix multiplication c = 5000 time: 2.625017750999632
+normal matrix multiplication norm: 999743.25
+randomized matrix multiplication mean(norm): 1730291.6
+randomized matrix multiplication var(norm): 113521640.0
+randomized matrix multiplication sigma: 10654.653
+error matrix mean(norm): 1412211.2
+error matrix var(norm): 169991120.0
+error matrix sigma: 13038.063
